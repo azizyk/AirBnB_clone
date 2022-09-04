@@ -11,6 +11,9 @@ import unittest
 from datetime import datetime
 from models.base_model import BaseModel
 from models.engine.file_storage import FileStorage
+from models.user import User
+FileStorage = file_storage.FileStorage
+classes = {"BaseModel": BaseModel, "User": User}
 
 
 class TestFileStorage_instantiation(unittest.TestCase):
