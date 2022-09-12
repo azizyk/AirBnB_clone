@@ -1,0 +1,15 @@
+/*
+ * === Header style ===
+ */
+
+/* Header style */
+header {
+    background-color:white;
+    border-bottom: 1px solid #cccccc;
+    height: 70px;
+    width: 100%;
+    background-image: url(../images/logo.png);
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
